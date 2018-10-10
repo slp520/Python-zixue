@@ -61,12 +61,8 @@
 #     # f1.close()
 #     cur.close()
 
-def activationcode2sql():
-    f = open("text.txt","r")
-    lines = f.readlines()#读取全部内容
-    for line in lines:
-        print(line)
-        print("hahaha")
+def test():
+    print("成功了！")
 
 if __name__ == '__main__':
-    activationcode2sql()
+    test()
